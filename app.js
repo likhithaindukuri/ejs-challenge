@@ -27,7 +27,7 @@ app.get("/about",function(req,res){
 });
 
 app.get("/",function(req,res){
-  res.render("home",{contactContent:contactContent});
+  res.render("contact",{contactContent:contactContent});
 });
 
 
